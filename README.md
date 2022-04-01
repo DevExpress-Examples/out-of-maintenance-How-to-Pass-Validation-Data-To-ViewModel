@@ -10,6 +10,6 @@
 * [Task.cs](./CS/Task.cs) (VB: [Task.vb](./VB/Task.vb))
 * [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
 <!-- default file list end -->
-# How to: Pass Validation Info from the GridControl to a ViewModel
+# How to: Pass Validation Data from the GridControl to a ViewModel
 
-To pass validation info from the **GridControl** to a ViewModel, use the [ReadOnlyDependencyPropertyBindingBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ReadOnlyDependencyPropertyBindingBehavior) to bind the view's [HasErrors](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.HasErrors) property to a ViewModel property. Note that it is necessary to set the view's [ErrorsWatchMode](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.ErrorsWatchMode) property to **Cells**. 
+To pass validation data from the **GridControl** to a ViewModel, use the [ReadOnlyDependencyPropertyBindingBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.ReadOnlyDependencyPropertyBindingBehavior) to bind the view's [HasErrors](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.HasErrors) property to a ViewModel property. Note that it is necessary to set the view's [ErrorsWatchMode](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataViewBase.ErrorsWatchMode) property to **Cells**. 
